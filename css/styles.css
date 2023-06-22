@@ -100,6 +100,7 @@ img {
   color: #4d5ae5;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .logo-span-dark {
@@ -228,10 +229,13 @@ img {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
   border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .features-list {
@@ -387,7 +391,7 @@ img {
 .main {
 }
 
-.pf {
+.portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
