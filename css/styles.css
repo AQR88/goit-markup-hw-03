@@ -101,6 +101,7 @@ img {
   text-transform: uppercase;
   margin-right: 76px;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-span-dark {
@@ -368,8 +369,6 @@ img {
 }
 
 .logo {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-span-light {
