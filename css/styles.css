@@ -100,8 +100,8 @@ img {
   color: #4d5ae5;
   text-transform: uppercase;
   margin-right: 76px;
+  margin-bottom: 16px;
   display: inline-block;
-  margin-bottom: ;
 }
 
 .logo-span-dark {
@@ -364,7 +364,7 @@ img {
 }
 
 .footer-container {
-  display: flex;
+  display: ;
   flex-direction: column;
 }
 
