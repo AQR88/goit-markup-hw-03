@@ -184,7 +184,7 @@ img {
   color: var(--text-light-color);
   height: 120px;
   margin-bottom: 48px;
-  max-width: 496;
+  max-width: 496px;
 }
 
 .hero-btn {
@@ -212,8 +212,7 @@ img {
 /* Features styles */
 
 .features {
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding: 120px 0;
 }
 
 .features-title {
@@ -223,6 +222,10 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-tittle-color);
   visibility: hidden;
+}
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
 }
 
 .features-list {
