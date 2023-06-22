@@ -90,7 +90,7 @@ img {
   color: var(--main-tittle-color);
 }
 
-.logo-link {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -366,20 +366,6 @@ img {
 .footer-container {
   display: flex;
   flex-direction: column;
-}
-
-.logo-link-footer {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-  text-transform: uppercase;
-  margin-right: 76px;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-span-light {
